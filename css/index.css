@@ -1,0 +1,190 @@
+
+.kar{
+    float: left;
+    min-height: 600px;
+    width: 100%;
+    background-color: white;
+}
+.head{
+    float : left;
+    min-height: 70px;
+    width: 100%;
+   padding: 0px 15px;
+}
+.centr{
+    float: left;
+    min-height: 460px;
+    width: 100%;
+    background-color:white;
+    margin: 15px 0px;
+}
+.bottom{
+    float: left;
+    min-height: 70px;
+    width: 100%;
+    padding: 0px 15px;
+}
+.nav{
+    float: left;
+    min-height:inherit;
+    width: 25%;
+    padding: 0px 15px;
+    background: yellow;
+}
+.art{
+    float: left;
+    min-height: inherit;
+    width: 50%;
+    background: yellow;
+}
+.ads{
+    float: left;
+    min-height: inherit;
+    width: 25%;
+    padding: 0px 15px;
+    background: yellow;
+    color: black;
+}
+.COLOR{
+    background-color:yellow;
+}
+.box{
+    box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+
+    .kar{
+        min-height: 600px;
+        width: 100%;
+    }
+    .head{
+        min-height: 70px;
+        width: 100%;
+    }
+    .centr{
+        min-height: 460px;
+        width: 100%;
+    }
+    .bottom{
+        min-height: 70px;
+        width: 100%;
+    }
+    .nav{
+        width: 32%;
+        background: yellow;
+        padding: 10px;
+    }
+    .art{
+        min-height: inherit;
+        width: 32%;
+        background: yellow;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .ads{
+        min-height: inherit;
+        width: 32%;
+        background: yellow;
+        color: black;
+        padding: 10px;
+        margin-left: 1%;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+.kar{
+    min-height: 600px;
+    width: 100%;
+    background-color: white;
+}
+.head{
+    float : left;
+    min-height: 70px;
+    width: 100%;
+   padding: 0px 15px;
+}
+.centr{
+    min-height: 50px;
+    width: 100%;
+    background-color:white;
+    margin: 15px 0px;
+}
+.bottom{
+    height:70px;
+    width: 100%;
+    padding: 0px 15px;
+}
+.nav{
+    height:150px;
+    width: 100%;    
+    padding: 0px 15px;
+    background: yellow;
+    margin-bottom: 15px;
+}
+.art{
+    height:150px;
+    width:100%;
+    background: orange  ;
+    margin-bottom: 15px;
+}
+.ads{
+    height: 150px;
+    width: 100%;
+    padding: 0px 15px;
+    background: yellow;
+    color: black;
+}
+.COLOR{
+    background-color:yellow;
+}
+.box{
+    box-sizing: border-box;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.kar{
+    min-height: 600px;
+    width: 100%;
+}
+.head{
+    min-height: 70px;
+    width: 100%;
+}
+.centr{
+    min-height: 460px;
+    width: 100%;
+}
+.bottom{
+    width: 100%;
+}
+.nav{
+    width: 23%;
+    background: yellow;
+}
+.art{
+    width: 50%;
+    background: yellow;
+}
+.ads{
+    width: 25%;
+    background: yellow;
+    color: black;
+    padding: 0px;
+    margin-left: 1%;
+}
+}
